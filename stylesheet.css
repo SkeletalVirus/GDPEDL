@@ -93,6 +93,7 @@ body {
     flex-direction: column;
     text-align: center;
     padding-bottom: 32px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .info_section {
@@ -121,6 +122,7 @@ body {
     height: 50px;
     width: fit-content;
     margin: 1px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .editor_card {
@@ -158,6 +160,7 @@ body {
     justify-self: center;
     align-self: center;
     transition: translate 2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .level:hover {
@@ -257,6 +260,7 @@ body {
     justify-self: center;
     align-self: center;
     transition: translate 2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .benchmark:hover {
