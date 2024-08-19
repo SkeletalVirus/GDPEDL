@@ -20,7 +20,7 @@
 }
 
 #darkmode-switch {
-    grid-column: 15 / span 1;
+    grid-column: 9 / span 1;
 }
 #darkmode-switch svg {
     fill: var(--accent-color);
@@ -33,6 +33,18 @@
 }
 .darkmode #darkmode-switch svg:last-child {
     display: block;
+}
+
+.button_panel {
+    grid-column: 8 / span 2;
+    grid-row: 1 / span 1;
+
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    justify-self: right;
+    gap: 10px;
 }
 
 .nav_button {
@@ -72,7 +84,7 @@ html, body {
     margin: 0%;
     align-items: center;
 
-    grid-template-columns: repeat(15, minmax(100px, 1fr));
+    grid-template-columns: repeat(9, minmax(100px, 1fr));
     grid-template-rows: var(--navbar-height);
 }
 
